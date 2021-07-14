@@ -1,0 +1,243 @@
+/*general*/
+.filter-list {
+    padding-top: 10px;
+}
+
+.carousel-indicators li {
+    width: 17px !important;
+    height: 17px !important;
+    background-color: #feffff !important;
+    border-radius: 50%;
+    position: relative;
+}
+
+.carousel-caption {
+    text-align: start !important;
+    left: 5% !important;
+}
+
+.slide-title {
+    font-family: "MullerNarrow-ExtraBold";
+    font-size: 45px;
+    line-height: 1.2;
+    font-weight: 800;
+    color: #212529;
+}
+
+.slide-title_key {
+    color: #dc3545;
+}
+
+.slide-description {
+    font-family: "MyriadPro-Regular";
+    font-size: 20px;
+    line-height: 29px;
+    font-weight: 600;
+    color: #212529;
+    padding-top: 15px;
+}
+
+.slide-description_price {
+    font-weight: 700;
+    color: #dc3545;
+}
+
+.slide-description_list {
+    padding-top: 20px;
+    max-width: 50%;
+    padding-bottom: 10px;
+}
+
+.slide-description_list > li {
+    padding-top: 10px;
+}
+
+.promoter {
+    font-size: 19px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #343a40;
+    padding-top: 20px;
+}
+
+.promoter_title {
+    font-family: "MullerNarrow-ExtraBold";
+    font-size: 25px;
+    line-height: 37px;
+    font-weight: 800;
+    color: #343a40;
+}
+
+.how-work {
+    padding-top: 80px;
+}
+
+.how-work_title {
+    font-family: "MullerNarrow-ExtraBold";
+    font-size: 25px;
+    line-height: 1.2;
+    font-weight: 800;
+    color: #343a40;
+    padding-bottom: 30px;
+}
+
+.how-work_text {
+    font-family: "MyriadPro-Regular";
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #343a40;
+}
+
+.directions {
+    padding-top: 75px;
+    width: 100%;
+}
+
+.fire-safety {
+    background-image: url("../img/fire_safety.png");
+    background-repeat: no-repeat;
+    min-height: 180px;
+    margin-right: 50px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    background-size: cover;
+}
+
+.fire-safety_title,
+.first-aid_title {
+    top: 45%;
+    left: 10%;
+    position: absolute;
+    font-family: "MullerNarrow-ExtraBold";
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 800;
+    color: #343a40;
+}
+
+.first-aid {
+    background-image: url("../img/first_aid.png");
+    background-repeat: no-repeat;
+    min-height: 180px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
+
+.popular-goods {
+    padding-top: 85px;
+}
+
+.popular-goods_title {
+    font-family: "MullerNarrow-ExtraBold";
+    font-size: 25px;
+    line-height: 1.2;
+    font-weight: 800;
+    color: #343a40;
+}
+
+.popular-goods_description {
+    padding-top: 10px;
+}
+
+.why-are-we {
+    padding-top: 65px;
+}
+
+.why-are-we_text__description {
+    line-height: 28px;
+}
+
+.why-are-we_slider__img {
+    height: 255px;
+    min-width: 178px;
+}
+
+.owl-stage-outer .owl-stage .center .why-are-we_slider__img {
+    height: 292px;
+    min-width: 204px;
+}
+
+.owl-stage .owl-item,
+.owl-stage .cloned {
+    padding-top: 18px;
+}
+
+.owl-stage .center {
+    padding-top: 0;
+}
+
+.owl-next span {
+    content: url("../img/right_arrow.png");
+    position: absolute;
+}
+
+.owl-prev span {
+    content: url("../img/left_arrow.png");
+    position: absolute;
+    left: -5%;
+}
+
+.owl-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+#carouselOne {
+    position: relative;
+}
+
+.owl-nav {
+    position: absolute;
+    width: 100%;
+    top: 40%;
+}
+
+.container1 {
+    background: #EEE5DC !important;
+}
+
+.block7_11 {
+    background: url("../img/Папка1.png") no-repeat;
+    background-color: rgba(0, 0, 0, 0);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-color: transparent;
+    background-position: bottom;
+    width: 100%;
+    height: 100%;
+    padding: 0px !important;
+    padding-top: 0px;
+    z-index: -5;
+    left: 0%;
+}
+
+.block7_12 {
+    background: url("../img/Папка2.png") no-repeat;
+    background-color: rgba(0, 0, 0, 0);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-color: #EEE5DC;
+    background-position: top;
+    width: 100%;
+    height: 100%;
+    padding: 0px !important;
+    z-index: -5;
+    left: 0%;
+}
+
+.rowfront {
+    font-family: "MullerNarrow-ExtraBold";
+    font-size: 25px;
+    line-height: 64px;
+    font-weight: 800;
+    color: #343a40;
+}
+
+/*# sourceMappingURL=main.css.map */
