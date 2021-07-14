@@ -253,3 +253,65 @@
 .filter-list_margin {
     margin-bottom: 40px;
 }
+
+.article {
+    background-color: rgba(249, 245, 241, 0.0);
+    border: 2px solid #f5efe9;
+    border-radius: 5px;
+}
+
+.article_padding {
+    display: flex;
+    padding: 18px;
+}
+
+.article_img {
+    background-image: url(/images/article_img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-width: 240px;
+    min-height: 160px;
+    background-color: #d7b797;
+    border-radius: 5px;
+}
+
+.article_text {
+    padding-left: 24px;
+}
+
+.article_description {
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #989898;
+    padding-bottom: 20px;
+}
+
+.article_share {
+    background-image: url(/images/share.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 18px;
+    height: 18px;
+}
+
+.article_link {
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    color: #dc3545;
+}
+
+.article_link:hover {
+    color: #dc3545;
+    text-decoration: none;
+}
+
+.article_title {
+    padding-bottom: 10px;
+}
+
+.article_date {
+    padding-right: 10px;
+}
