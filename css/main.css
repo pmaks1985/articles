@@ -242,4 +242,17 @@
   font-weight: 800;
   color: #343a40;
 }
+
+/*articles*/
+.filter-list_li__title {
+  font-family: "MyriadPro-Regular";
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+  color: #343a40;
+}
+
+.filter-list_margin {
+  margin-bottom: 40px;
+}
 /*# sourceMappingURL=main.css.map */

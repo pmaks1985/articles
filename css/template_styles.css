@@ -1,20 +1,21 @@
 @charset "UTF-8";
+
 @font-face {
     font-display: swap;
     font-family: "MullerNarrow-ExtraBold";
-    src: local("MullerNarrow-ExtraBold"), url("fonts/MullerNarrow-ExtraBold.eot?#iefix") format("embedded-opentype"), url("fonts/MullerNarrow-ExtraBold.woff") format("woff"), url("fonts/MullerNarrow-ExtraBold.ttf") format("truetype"), url("fonts/MullerNarrow-ExtraBold.otf") format("opentype");
+    src: local("MullerNarrow-ExtraBold"), url("/fonts/MullerNarrow-ExtraBold.eot?#iefix") format("embedded-opentype"), url("/fonts/MullerNarrow-ExtraBold.woff") format("woff"), url("/fonts/MullerNarrow-ExtraBold.ttf") format("truetype"), url("/fonts/MullerNarrow-ExtraBold.otf") format("opentype");
 }
 
 @font-face {
     font-display: swap;
     font-family: "MyriadPro-Regular";
-    src: local("MyriadPro-Regular"), url("fonts/MyriadPro-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/MyriadPro-Regular.woff") format("woff"), url("fonts/MyriadPro-Regular.ttf") format("truetype"), url("fonts/MyriadPro-Regular.otf") format("opentype");
+    src: local("MyriadPro-Regular"), url("/fonts/MyriadPro-Regular.eot?#iefix") format("embedded-opentype"), url("/fonts/MyriadPro-Regular.woff") format("woff"), url("/fonts/MyriadPro-Regular.ttf") format("truetype"), url("/fonts/MyriadPro-Regular.otf") format("opentype");
 }
 
 @font-face {
     font-display: swap;
     font-family: "MyriadPro-Bold_0";
-    src: local("MyriadPro-Bold_0"), url("fonts/MyriadPro-Bold_0.eot?#iefix") format("embedded-opentype"), url("fonts/MyriadPro-Bold_0.woff") format("woff"), url("fonts/MyriadPro-Bold_0.ttf") format("truetype"), url("fonts/MyriadPro-Bold_0.otf") format("opentype");
+    src: local("MyriadPro-Bold_0"), url("/fonts/MyriadPro-Bold_0.eot?#iefix") format("embedded-opentype"), url("/fonts/MyriadPro-Bold_0.woff") format("woff"), url("/fonts/MyriadPro-Bold_0.ttf") format("truetype"), url("/fonts/MyriadPro-Bold_0.otf") format("opentype");
 }
 
 body {
@@ -118,7 +119,8 @@ h3 {
     color: #212529;
 }
 
-.site-name:hover, .user-name:hover {
+.site-name:hover,
+.user-name:hover {
     color: #212529;
     text-decoration: none;
 }
@@ -266,8 +268,8 @@ ul.dropdown-menu {
     position: relative;
 }
 
-.show > li > a.dropdown-item:hover,
-.dropdown-item_li > a.dropdown-item:hover {
+.show>li>a.dropdown-item:hover,
+.dropdown-item_li>a.dropdown-item:hover {
     background-color: #f9f5f1;
 }
 
@@ -330,7 +332,7 @@ ul.dropdown-menu {
     white-space: normal !important;
 }
 
-.filter-list > li {
+.filter-list>li {
     list-style: none;
 }
 
@@ -368,12 +370,12 @@ ul.dropdown-menu {
     color: #343a40;
 }
 
-.custom-control-input:checked ~ .custom-control-label::before {
+.custom-control-input:checked~.custom-control-label::before {
     border-color: #D6C0A9;
     background-color: #D6C0A9;
 }
 
-.custom-control-input:focus ~ .custom-control-label::before {
+.custom-control-input:focus~.custom-control-label::before {
     -webkit-box-shadow: 0 0 0 .2rem #EBD8C6;
     box-shadow: 0 0 0 .2rem #EBD8C6;
 }
@@ -457,7 +459,8 @@ ul.dropdown-menu {
     margin-bottom: 14px;
 }
 
-.product-list_text__title-link, .product-list_text__title-link:hover {
+.product-list_text__title-link,
+.product-list_text__title-link:hover {
     color: #343a40;
     text-decoration: none;
 }
@@ -603,8 +606,8 @@ footer {
     color: #343a40;
 }
 
-.footer-phone > p,
-.footer-schedule > p {
+.footer-phone>p,
+.footer-schedule>p {
     margin-bottom: 0;
 }
 
@@ -711,12 +714,12 @@ footer {
     margin-top: 12px;
 }
 
-.goods-description_list > ol {
+.goods-description_list>ol {
     padding-left: 0;
 }
 
-.goods-description_list > li,
-.goods-description_list > ol > li {
+.goods-description_list>li,
+.goods-description_list>ol>li {
     margin-left: 15px;
 }
 
@@ -928,4 +931,3 @@ b {
 }
 
 /*Фильтр в каталоге*/
-
