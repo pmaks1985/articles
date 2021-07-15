@@ -270,7 +270,6 @@
 }
 
 .article_img {
-  background-image: url(/images/article_img.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -314,9 +313,22 @@
 
 .article_title {
   padding-bottom: 10px;
+  color: #343a40;
+}
+
+.article_title:hover {
+  color: #343a40;
+  text-decoration: none;
 }
 
 .article_date {
   padding-right: 10px;
+  padding-bottom: 0;
+}
+
+.content {
+  background-color: rgba(249, 245, 241, 0);
+  border: 2px solid #f5efe9;
+  border-radius: 8px;
 }
 /*# sourceMappingURL=main.css.map */
