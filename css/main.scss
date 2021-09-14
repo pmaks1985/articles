@@ -326,7 +326,7 @@
     padding: 0 10px 0 0;
 }
 
-.content {
+.contents {
     background-color: rgba(249, 245, 241, 0.0);
     border: 2px solid #f5efe9;
     border-radius: 8px;
@@ -334,11 +334,11 @@
     margin-bottom: 30px;
 }
 
-.content_padding {
+.contents_padding {
     padding: 20px 20px 0 20px;
 }
 
-.content_title {
+.contents_title {
     font-family: "MullerNarrow-ExtraBold";
     font-size: 19px;
     line-height: 1.2;
@@ -347,29 +347,29 @@
     padding-bottom: 15px;
 }
 
-.content_list {
+.contents_list {
     font-size: 14px;
     line-height: 1.2;
     font-weight: 400;
     color: #343a40;
 }
 
-.content_list>ol>li>a>span {
+.contents_list>ol>li>a>span {
     border-bottom: 2px dotted;
     border-bottom-color: currentcolor;
     border-bottom-color: black;
     color: #343a40;
 }
 
-.content_list>ol>li>a:hover {
+.contents_list>ol>li>a:hover {
     text-decoration: none;
 }
 
-.content_list>ol>li>a>span:hover {
+.contents_list>ol>li>a>span:hover {
     border-bottom: none;
 }
 
-.content_list>ol>li {
+.contents_list>ol>li {
     padding-bottom: 15px;
 }
 
